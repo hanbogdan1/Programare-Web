@@ -1,0 +1,55 @@
+body{
+margin:0;
+padding:0;
+background-color:yellow;
+}
+.Menu ul li{
+	box-sizing: border-box;
+	display: block;
+    height: 25px;
+	border-bottom:1px solid black;
+	background-color:yellow;
+	
+}
+.Menu ul {
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+list-style-type: none;
+background-color:yellow;
+
+}
+.Menu {
+display:inline-block;
+width:150px;
+float:left;
+top:100px;
+height:70%;
+}
+.Content {
+background-color:green;
+height: 76%;
+display:inline-block;
+display:flex;
+align-items:center;
+    overflow-y: scroll; 
+}
+
+
+footer{
+position:absolute;
+bottom:0;
+background-color:pink;
+height:60px;
+display:flex;
+align-items:center;
+width:100%;
+}
+header{
+background-color:red;
+height:15%;
+display:flex;
+align-items:center;
+
+}

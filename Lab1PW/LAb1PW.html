@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML> 
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+		<title>Formular Posta</title> 
+	</head>
+	
+	<body bgcolor="#fDF">
+		<h2 align ="center">Formular expediere colet prin posta</h2>
+		<div align="center">	
+		<table border="3" width="60%">
+		<tr>
+			<th>
+				<span>Detalii Expediție</span>
+			</th>
+		</tr>		
+		<tr>
+			<td>
+				<form action="URL">
+					Conținut: <input type="text" name="Continut" value="" size="15">
+					Număr de colete: <input type="text" name="Numar de colete" value="" size="10">
+					Greutate:
+					<select>
+						<option value="less5">&lt;2kg</option>
+						<option value="greater5" selected>&gt;2kg</option>
+					</select>
+					
+				</form>
+			</td>				
+		</tr>
+		
+		<tr>
+			<td>
+				<form action="">
+					<fieldset>
+						<legend align="left">Dimensiuni Colet</legend>
+						Lungime  :<input type="text"><br>
+						Lățime   :<input type="text"><br>
+					    Inălțime :<input type="text">
+					</fieldset>					
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<form action="URL">								
+					Valoare colet:<select name="Valoare colet" id="Valoare">
+								<option value="0">Alegeți un tip de moneda</option>
+								<option value="1">Euro</option>
+								<option value="1">Ron</option>
+								</select>						
+					Valoare in lei: <input type="text" name="Valoare" value="">					
+				</form>
+			</td>
+		</tr>
+		<tr>		
+			<td>				
+				<label> Optiuni siguranta </label>&nbsp;
+					<form action="URL">
+				  <input type="checkbox" name="Asigurare" value="Asigurare"checked > Asigurare in caz de pierdere<br>
+				  <input type="checkbox" name="Domiciliu" value="Domiciliu" > Livrare domiciliu<br>
+				  <input type="checkbox" name="ramburs" value="ramburs"> Ramburs in cont bancar<br>
+				  <input type="checkbox" name="predare" value="predare" > Predare noaptea<br>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table border="2" width="60%" align =center >
+					<tr>
+						<td>
+							<form action="URL">
+								<ol start="1" type="I">
+									<li><input type="radio" name="Ora" value="Inainte12">Inainte de ora 12</li>
+									<li><input type="radio" name="Ora" value="Dupa12">Dupa ora 12</li>
+								</ol>
+							</form>
+						</td>
+						
+						<td  align="center" valign="middle" height="100" width="500">
+								<form action="URL">								
+								 <label> Advance options</label>&nbsp;
+									<select multiple size="3" >
+									<option value="Live tracking">Tracking Live</option>
+									<option value="Safe Box" selected>Safe box</option>
+									<option value="Urgent delivery" selected>Urgent delivery</option>
+									<option value="Email delivery report" selected>Email delivery report</option>
+									<option value="Sms delivery report" selected>Sms delivery report</option>						
+								</select>	
+							</form>						
+						</td>
+						
+					</tr>
+					<tr>
+							<td>
+							Notes:
+							</td>
+							<td>
+									<ol type="I">
+										<li>
+										Fields marked with * are required
+										<ul type="square">
+											<li>First inner list element 1</li>
+											<li>First inner list element 2</li>
+										</ul>
+									</li>
+									<li>
+										Fields not marked with * are not required
+										<ol type="A">
+											<li>Second inner list element 1</li>
+											<li>Second inner list element 2</li>
+											<li>Second inner list element 3</li>
+											<li>Second inner list element 4</li>
+										</ol>
+									</li>
+								</ol>
+							</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							<strong>Prelucrarea datelor cu caracter personal : </strong>
+							
+						CN Poșta Română SA cu sediul în Bd. Dacia, nr.140, sectorul 2, cod poștal 020065, București, CUI 427410, cu nr.
+						de înregistrare la Reg. Com. J/40/8636/1998 prelucrează datele dumneavoastră cu caracter personal,
+						prin mijloace autorizate/manuale, destinate furnizării de bunuri și servicii poștale. 
+						Sunteți obligat(ă) să furnizați datele, acestea fiind necesare
+						prestării serviciilor furnizate de către CN Poșta Română SA.
+						Refuzul dumneavostră determină neprelucrarea datelor dvs. cu caracter personal.
+						Informațiile înregistrate sunt destinate utilizării de către operator și sunt 
+						comunicate numai partenerilor contractuali al operatorului, poliției, serviciilor sociale de sănătate,
+						societăților bancare, societăților de asigurare și reasigurare.
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>	
+	
+	</table>	
+		<table border="3" width="60%">
+			<tr>
+				<th>
+				<span>Detalii expeditor </span>
+				</th>
+			</tr>
+		
+			<tr>
+				<td>					
+					<form action="URL">
+						Tara <input type="text" name="Tara" value="Romania" readonly>
+						Judet:	
+												<select name="Judet" id="Judet">
+												<option value="0">Alegeți un județ</option>
+												<option value="1">ALBA</option>
+												<option value="2">ARGEŞ</option>
+												<option value="3">ARAD</option>
+												<option value="4">MUNICIPIUL BUCUREŞTI</option>
+												<option value="5">BACĂU</option>
+												<option value="6">BIHOR</option>
+												<option value="7">BISTRIŢA-NĂSĂUD</option>
+												<option value="8">BRĂILA</option>
+												<option value="9">BOTOŞANI</option>
+												<option value="10">BRAŞOV</option>
+												<option value="11">BUZĂU</option>
+												<option value="12">CLUJ</option>
+												<option value="13">CĂLĂRAŞI</option>
+												<option value="14">CARAŞ-SEVERIN</option>
+												<option value="15">CONSTANŢA</option>
+												<option value="16">COVASNA</option>
+												<option value="17">DÂMBOVIŢA</option>
+												<option value="18">DOLJ</option>
+												<option value="19">GORJ</option>
+												<option value="20">GALAŢI</option>
+												<option value="21">GIURGIU</option>
+												<option value="22">HUNEDOARA</option>
+												<option value="23">HARGHITA</option>
+												<option value="24">ILFOV</option>
+												<option value="25">IALOMIŢA</option>
+												<option value="26">IAŞI</option>
+												<option value="27">MEHEDINŢI</option>
+												<option value="28">MARAMUREŞ</option>
+												<option value="29">MUREŞ</option>
+												<option value="30">NEAMŢ</option>
+												<option value="31">OLT</option>
+												<option value="32">PRAHOVA</option>
+												<option value="33">SIBIU</option>
+												<option value="34">SĂLAJ</option>
+												<option value="35">SATU MARE</option>
+												<option value="36">SUCEAVA</option>
+												<option value="37">TULCEA</option>
+												<option value="38">TIMIŞ</option>
+												<option value="39">TELEORMAN</option>
+												<option value="40">VÂLCEA</option>
+												<option value="41">VRANCEA</option>
+												<option value="42">VASLUI</option>
+											</select>
+						Oraș:<input type="text" name="Oras" value="" size="15">				
+						Strada: <input type="text" name="Strada" value="" size="30">
+						Numărul:<input type="text" name="Numarul" value="" size="5">
+						Bloc(clădire):<input type="text" name="Bloc" value="" size="5">
+						Scara(intrare):<input type="text" name="Intrare" value="" size="5">
+						Etaj:<input type="text" name="Etaj" value="" size="5" >
+						Apartament:<input type="text" name="Apartament" value="" size="7">
+						Nr. de telefon:<input type="text" name="Nr de telefon" value="" size=10>
+						CNP:<input type="text" name="CNP" value="" size=13 maxlength="13">
+						Persoană juridică: <input type="radio" name="Verificare" value="Da" checked> Da
+									<input type="radio" name="Verificare" value="Nu"> Nu
+					</form>
+				</td>
+			</tr>					
+		</table>
+		
+		
+	
+	
+	<table border="3" width="60%">
+        <tr>
+            <td width="60%" valign="top">
+                Informații Suplimentare cu privire la transport (opțional)
+            </td>
+            <td>
+                <textarea rows="6" cols="89">
+                </textarea>
+            </td>
+        </tr>
+    </table>
+	
+	<p>Pentru a afla mai multe informații despre expediere apăsați pe 
+    <strong>
+    <a href="https://www.posta-romana.ro/a255/servicii-expeditori/colete/in-romania/colete-interne.html" target="_blank">detalii.</a>
+    </strong>
+    </p>
+</div>
+<div align="center">
+        <button  type="button" onclick="alert('Cerere trimisa')" disabled>
+            <b>Trimite cererea</b>
+        </button>
+        
+       
+</div>
+	
+<div align="right">
+	<img src="logo.png" width="120" height="80" alt="Errore incarcare imagine" align= "MIDDLE">
+</div>
+	</body>
+</HTML>
